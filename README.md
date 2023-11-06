@@ -1,1 +1,2 @@
 # Stock-Price-Data-Cleaning-Project
+This Python script reads Excel files from an input folder. It reads each file, partitions rows into groups of three, and then identifies the specified columns for ranking. After excluding specific columns and those with entirely null values, it calculates rankings for the remaining columns within each row group. The modified data is saved into new Excel files in an output folder. The code manages potential exceptions during file handling and data processing to ensure smooth execution.
